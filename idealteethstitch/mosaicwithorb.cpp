@@ -30,7 +30,7 @@ int main( int argc, char** argv )
     Mat I = cv::Mat::eye(3,3,CV_64F);
     Mat result(Size(6*img_1.cols,6*img_1.rows),CV_8UC3);
     for (int i=1; i<=790; i=i+1) {
-        std::string imgstr= "/Users/annopkobhiran/Documents/Xcode/kmutt/testopencv/codes/idealteethstitch/imgs/"+std::to_string(i)+".png";
+        std::string imgstr= "/Users/annopkobhiran/Documents/X  code/kmutt/testopencv/codes/idealteethstitch/imgs/"+std::to_string(i)+".png";
         
         Mat img = imread(imgstr,IMREAD_GRAYSCALE);
         imgs.push_back(img);
